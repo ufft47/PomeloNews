@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PomeloNews.iml" filepath="$PROJECT_DIR$/PomeloNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YoukuPlayerOpenSDK/YoukuPlayerOpenSDK.iml" filepath="$PROJECT_DIR$/YoukuPlayerOpenSDK/YoukuPlayerOpenSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pomeloNews/pomeloNews.iml" filepath="$PROJECT_DIR$/pomeloNews/pomeloNews.iml" />
+    </modules>
+  </component>
+</project>

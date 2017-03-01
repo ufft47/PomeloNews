@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DE4A50</color>
+    <color name="colorPrimaryDark">#DE4A50</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWindowBackground">#F3F3F3</color>
+
+    <color name="colorTabLayoutBackground">#F6F5F4</color>
+    <color name="colorToolBarTitle">#FFFFFF</color>
+    <color name="colorBottomNavigationBarSelected">#DE4A50</color>
+    <color name="colorBottomNavigationBarUnSelected">#F7F7F7</color>
+
+    <color name="colorFirstFragmentTabLayoutText">#636363</color>
+    <color name="colorFirstFragmentTabLayoutTextSelected">#DE4A50</color>
+
+    <color name="colorToolBarBack">#676767</color>
+    <color name="colorSplashBackground">#E9E9E9</color>
+    <color name="colorSwipeRefreshLayout">#DD6C6C</color>
+</resources>

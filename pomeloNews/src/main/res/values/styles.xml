@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">@color/colorToolBarBack</item> <!-- ToolBar返回键颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorWindowBackground</item>
+    </style>
+
+    <style
+        name="firstFragmentTabLayoutTextSize">
+        <item name="android:textSize">@dimen/fist_fragment_tablayout_textSize</item>
+    </style>
+
+    <style name="splashThme" parent="Theme.Design.Light.NoActionBar">
+        <item name="android:background">@drawable/splash</item>
+    </style>
+</resources>

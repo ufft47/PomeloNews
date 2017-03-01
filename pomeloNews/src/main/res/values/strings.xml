@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PomeloNews</string>
+
+    <string name="toolbar_title">PomeloNews</string>
+
+    <item name="tag_url" type="id"></item>
+    <item name="tag_title" type="id"></item>
+
+    <string name="about">本项目是一个基于聚合数据提供的新闻API接口所开发的新闻类APP\n
+• 使用单Activity+多Fragment模式开发APP界面\n
+• 项目整合了优酷视频SDK，能够播放来自优酷的精选视频\n
+• 网络框架使用RXJAVA+Retrofit2\n
+• 使用聚合数据提供的新闻API接口\n
+• 使用MultiType+RecylerView框架加载本项目中的列表视图\n
+• 图片加载部分使用了Picasso框架\n
+</string>
+</resources>

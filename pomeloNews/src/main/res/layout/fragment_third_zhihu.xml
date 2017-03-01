@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    android:foreground="?attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    水波纹效果
+-->
+<GridLayout
+    android:id="@+id/gridlayout_fragment_third_zhihu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:rowCount="3"
+    android:columnCount="2"
+    android:layout_marginBottom="2dp"
+    android:orientation="horizontal">
+
+    <!-- 分类 更多 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_columnSpan="2">
+
+        <TextView
+            android:id="@+id/tv_category_fragment_third_zhihu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="5dp"
+            android:text="今日热闻"
+            android:textColor="#808080"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_alignTop="@id/tv_category_fragment_third_zhihu"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativelayout_fragment_third_zhihu">
+
+            <ImageView
+                android:id="@+id/iv_goto_fragment_third_zhihu"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_more_fragment_third" />
+
+            <TextView
+                android:id="@+id/tv_more_fragment_third_zhihu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_toLeftOf="@id/iv_goto_fragment_third_zhihu"
+                android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="14sp"
+                android:text="更多"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_rowWeight="1"
+        android:layout_gravity="center_horizontal">
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:focusable="true"
+            android:clickable="true"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:contentPadding="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_pic_1_fragment_third_zhihu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/tv_title_1_fragment_third_zhihu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:maxLength="15"
+                    android:textColor="#151515"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_rowWeight="1"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal">
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:focusable="true"
+            android:clickable="true"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:contentPadding="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_pic_2_fragment_third_zhihu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/tv_title_2_fragment_third_zhihu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:maxLength="25"
+                    android:textColor="#151515"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_rowWeight="1"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal">
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:focusable="true"
+            android:clickable="true"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:contentPadding="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_pic_3_fragment_third_zhihu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/tv_title_3_fragment_third_zhihu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:maxLength="15"
+                    android:textColor="#151515"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_rowWeight="1"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal">
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:focusable="true"
+            android:clickable="true"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:contentPadding="2dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_pic_4_fragment_third_zhihu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/tv_title_4_fragment_third_zhihu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:maxLength="15"
+                    android:textColor="#151515"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </FrameLayout>
+
+
+
+</GridLayout>
+
+
+
